@@ -1,0 +1,42 @@
+banana
+
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+const formatDate = date => new Date(date).toLocaleDateString();
+10 * true
+const isEven = num => num % 2 === 0;
+true / 14,47,41,47,65,98,86,33,82,47,82,68,99,86,35,64,60,29,75,79,14,9,69,20,92,94,94,51,74,3,57,49,24,45,52,55,63,31,34,68,33,10,67,11,60,45,20,51,98,86,14,24,69,74,29,90
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+grape / true
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+orange
+
+
+const getUniqueValues = array => [...new Set(array)];
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+grape
+
+function addNumbers(a, b) { return a + b; }
+grape
+
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const greet = name => `Hello, ${name}!`;
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+banana * banana
+const removeDuplicates = array => Array.from(new Set(array));
+kiwi * 3
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+const findLargestNumber = numbers => Math.max(...numbers);
+const findLargestNumber = numbers => Math.max(...numbers);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+68,16,51,20,13,16,29,18,27,64,96,8,28,26,11,4,96,46,88,29,69,29,14,2,65,63,13,95,47,2,96,97,65,55,78,4,86,26,14,1,93,6,8,11,36,72,94,51,63,95,29,88,25,67,26,31,2,33,64,37,59,32,27 + 7
+const findSmallestNumber = numbers => Math.min(...numbers);
+const squareRoot = num => Math.sqrt(num);
+
